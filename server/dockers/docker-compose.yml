@@ -5,7 +5,7 @@ services:
     links:
       - db
     ports:
-      - "6000:6000"
+      - "5000:5000"
     restart: always
     volumes:
       - ../src:/app
